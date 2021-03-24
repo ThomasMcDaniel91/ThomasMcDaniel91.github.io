@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: Portfolio
+title: TMDA
 
 # Short description of your site
-description: My display of data analyst skills
+description: My data analyst skills
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
