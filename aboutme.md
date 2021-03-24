@@ -4,7 +4,7 @@ title: About me
 subtitle: 
 ---
 
-My name is Thomas, I am pursuing a career in data analytics through a tech stack of SQL Server, Power BI and Python. I'd love to work together on projects with you!
+My name is Thomas, I am pursuing a career in data analytics through a tech stack of SQL Server, Tableau and Python. I'd love to work together on projects with you!
 
 You can contact me through these mediums with any questions:
 
