@@ -13,13 +13,19 @@ The plan for this project was to get some familiarity with Tableau in specific. 
 ### The Data
 
 The data in this project came from a kaggle dataset that can be found [here](https://www.kaggle.com/aungpyaeap/supermarket-sales). After a brief check on the data in SQL Server to check out values and get a quick view of the data, I deemed there was no need to do any further cleaning to complete the project I had in mind.
-Since this particular chain only consists of a single store per city with a total of 3 stores, a map was out of the question. Instead I decided to go filters of product line, month and branch for the dashboard.
-Another insight I was particularly interested in was the customer ratings. As described by the author of the dataset, these ratings are based on the customers shopping experience as a whole so this is a great metric to determine which areas of the stores are giving out good customer service and which are failing it hit the mark on such an important metric.
+Since this particular chain only consists of a single store per city with a total of 3 stores, a map was out of the question. Instead I decided to go filters of product line, month and branch for the dashboard's filters and decided to focus it on the customer ratings that I was supplied with.
 
 
 ### The Dashboard
 
-The end result of this particular project can be found here: [Tableau project](https://public.tableau.com/profile/thomas.mcdaniel3679#!/vizhome/SupermarketSales_1/SupermarketSalesData)
+A quick overview of the dashboard can be seen with this screenshot here,
 
-When building this dashboard, I was thinking of which metrics would be useful to find areas to improve upon in each store to improve sales. The distribution of customer ratings unfortunately seemed to be almost uniform across the board from 4 to 9s and less than 10% of the total ratings.
-With some investigating, this metric alone could pinpoint areas of the store where the store could do some additional training to improve their rating in those areas and increase sales.
+<img src="/img/SalesOV.png">
+
+and the link to the project's home on Tableau Public can be found here: [Tableau project](https://public.tableau.com/profile/thomas.mcdaniel3679#!/vizhome/SupermarketSales_1/SupermarketSalesData)
+
+While designing the dashboard, I wanted to make sure that the customer ratings were the focus because I feel like that is the best insight that could be gained from these particular parameters. The original rating data was comprised of continuous ratings between 4 and 10 so I used the bin method in Tableau to turn them into bins of 0.5 for easier viewing.  
+
+With the filters of product line and branches, you can see which departments of each store are in need of improvement in their customer service skills and which departments are going above and beyond to get more of the preferred scores.  
+
+Another quick overview this gives is which product lines are doing the best in each store because there are different product lines as the top seller for each location and this could give the owner an idea of which locations to run certain sales in or possibly even move product to different stores where they have a higher chance of being sold for a reasonable quantity. All in all, I believe that this dashboard in the hands of someone in the company could most certainly improve their sales overall by way of customer satisfaction and have a better idea on ordering quantity for their stores in the future.
