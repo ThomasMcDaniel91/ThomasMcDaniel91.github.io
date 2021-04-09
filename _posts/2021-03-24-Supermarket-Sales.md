@@ -12,7 +12,7 @@ The plan for this project was to create a dashboard in Tableau that could give s
 
 ### The Data
 
-The data in this project came from a kaggle dataset that can be found [here](https://www.kaggle.com/aungpyaeap/supermarket-sales). After a brief check on the data in SQL Server to check out values and get a quick view of the data, I deemed there was no need to do any further cleaning to complete the project I had in mind which utilized the sales, customer ratings and profits as the main focus.
+The data in this project came from a kaggle dataset that can be found [here](https://www.kaggle.com/aungpyaeap/supermarket-sales). It consists of a single csv file with 1,000 rows each being a transaction at store owned by the chain and containing information such as total amount, tax, department of products sold, and which location they were sold at.
 
 
 ### The Dashboard
