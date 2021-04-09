@@ -17,7 +17,7 @@ The data in this project came from a kaggle dataset that can be found [here](htt
 
 ### The Dashboard
 
-A quick overview of the dashboard can be seen with this screenshot here,
+A quick overview of the dashboard can be seen with this screenshot here as well as the link to the project's home on Tableau Public can be found here: [Tableau project](https://public.tableau.com/profile/thomas.mcdaniel91#!/vizhome/SupermarketSalesViz/SupermarketSalesData?publish=yes)
 
 <img src="/img/SupermarketDashboard.png">
 
