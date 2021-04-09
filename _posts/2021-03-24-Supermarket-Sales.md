@@ -21,11 +21,11 @@ A quick overview of the dashboard can be seen with this screenshot here,
 
 <img src="/img/SalesOV.png">
 
-and the link to the project's home on Tableau Public can be found here: [Tableau project](https://public.tableau.com/profile/thomas.mcdaniel3679#!/vizhome/SupermarketSales_1/SupermarketSalesData)
+and the link to the project's home on Tableau Public can be found here: [Tableau project](https://public.tableau.com/profile/thomas.mcdaniel91#!/vizhome/SupermarketSalesViz/SupermarketSalesData?publish=yes)
 
 During the creation of the dashboard in Tableau, I wanted to focus on the sales and the products with filters consisting of branch and product line to allow deeper investigation into individual stores and departments. Since customer ratings were provided, I also chose to shed some light on the amount of money the average person spends in the store based on those ratings and lo and behold, the few customers that did give a 10/10 rating were also the ones that had the highest average total per transaction. 
 
-This is what led me to create the heat map of average sales per rating which forced me to create my own calculated field. Lucky this is very similar to how the syntax is when working with Python so it was fairly straightforward just to put this in:
+This is what led me to create the heat map of average sales per rating which forced me to create my own calculated field. Luckily this is very similar to the syntax in Python so it was fairly straightforward just to put this in:
 
 
 After taking a look at the customer ratings themselves, I noticed that the graph looked pretty ugly and difficult to read as they were continuous numbers so after making bins of 0.5 for the ratings and separating them by gender, I was able to turn it into a much easier to read bar chart as shown in the before and after here:
