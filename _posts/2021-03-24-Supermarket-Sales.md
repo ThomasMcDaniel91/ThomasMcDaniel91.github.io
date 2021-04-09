@@ -19,7 +19,7 @@ The data in this project came from a kaggle dataset that can be found [here](htt
 
 A quick overview of the dashboard can be seen with this screenshot here,
 
-<img src="/img/SalesOV.png">
+<img src="/img/SupermarketDashboard.png">
 
 and the link to the project's home on Tableau Public can be found here: [Tableau project](https://public.tableau.com/profile/thomas.mcdaniel91#!/vizhome/SupermarketSalesViz/SupermarketSalesData?publish=yes)
 
@@ -27,8 +27,10 @@ During the creation of the dashboard in Tableau, I wanted to focus on the sales 
 
 This is what led me to create the heat map of average sales per rating which forced me to create my own calculated field. Luckily this is very similar to the syntax in Python so it was fairly straightforward just to put this in:
 
+<img src="/img/Calculatedfield.png">
 
 After taking a look at the customer ratings themselves, I noticed that the graph looked pretty ugly and difficult to read as they were continuous numbers so after making bins of 0.5 for the ratings and separating them by gender, I was able to turn it into a much easier to read bar chart as shown in the before and after here:
 
+<img src="/img/UnbinnedRatings.png"> <img src="/img/BinnedRatings.png">
 
 With all of these things done, I believe that the client would have a much easier time determining where to put their focus in each store by way of customer service as well as sales and if this client were to return to me for another analysis, I would attempt to pursued them into using a database to store this data so that an automated pipeline could be set up to allow them to constantly update and view more real time data rather than historical to make needed changes quicker than seeing past months' sales.
